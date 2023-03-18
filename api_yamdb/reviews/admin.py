@@ -2,7 +2,7 @@ from django.contrib import admin
 from import_export import resources
 from import_export.admin import ImportExportModelAdmin
 from import_export.fields import Field
-from reviews.models import Category, Comment, Genre, Title, TitleGenre, Review
+from reviews.models import Category, Comment, Genre, TitleGenre, Title, Review
 
 
 class CategoryResource(resources.ModelResource):
