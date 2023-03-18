@@ -1,5 +1,5 @@
-from collections import OrderedDict
 import csv
+from collections import OrderedDict
 
 from django.apps import apps
 from django.core.management import BaseCommand
@@ -7,7 +7,6 @@ from django.shortcuts import get_object_or_404
 
 from reviews.models import Comment, Category, Genre, Title, TitleGenre, Review
 from users.models import User
-
 
 MODELS_FIELDS = {
     'category': Category,
