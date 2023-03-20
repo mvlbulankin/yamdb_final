@@ -9,6 +9,7 @@ services:
       - .env
 
   web:
+    platform: linux/x86_64
     image: mvlbulankin/yamdb_final:latest
     restart: always
     volumes:
